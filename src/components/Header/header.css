@@ -1,0 +1,31 @@
+.header {
+    padding: 24px 0;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 4px;
+    color: #69B9FF;
+}
+.header__links {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 40px;
+}
+.header__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #676770;
+    transition: 0.6s;
+}
+.header__link:hover {
+    color: #69B9FF;
+}

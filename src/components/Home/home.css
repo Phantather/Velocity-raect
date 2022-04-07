@@ -1,0 +1,38 @@
+.home {
+    padding: 184px 0;
+    background: url("bg.png") top left/100% 100%;
+}
+.home__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 107px;
+}
+.home__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.home__btns {
+    display: flex;
+    column-gap: 20px;
+}
+.home__btn {
+    padding: 0 31px;
+    height: 43px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.home__btn:hover {
+    border: 1px solid #69B9FF;
+    background-color: #69B9FF;
+}

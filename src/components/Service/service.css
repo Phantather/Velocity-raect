@@ -1,0 +1,66 @@
+.service {
+    padding: 77px 0 95px;
+    background-color: #192024;
+}
+
+.service__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.service__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E8E8E8;
+    margin: 17px 0 77px;
+}
+
+.service__row {
+    display: flex;
+    column-gap: 50px;
+}
+
+.service__card {
+    width: calc(50% - 25px);
+    text-align: center;
+}
+
+.service__card-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.service__card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 23px 0 17px;
+}
+
+.service__card-btn {
+    padding: 0 31px;
+    height: 43px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}

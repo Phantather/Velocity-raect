@@ -1,0 +1,45 @@
+.some {
+    padding: 77px 0 90px;
+}
+
+.some__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.some__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+    margin: 17px 0 62px;
+}
+
+.some__tabs{
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.some__tabs-item {
+    padding: 5px 30px;
+    background: #2E80B6;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 52px;
+    cursor: pointer;
+}
