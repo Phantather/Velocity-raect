@@ -53,3 +53,18 @@
     text-align: center;
     color: #6A859C;
 }
+
+@media (max-width: 641px) {
+    .inside__row {
+        justify-content: center;
+    }
+    .inside__card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 426px) {
+    .inside__card {
+        width: 100%;
+    }
+}

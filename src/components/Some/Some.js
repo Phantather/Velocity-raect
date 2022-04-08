@@ -23,7 +23,7 @@ const Some = () => {
                     </li>
                 </ul>
                 <div className="some__content">
-                    <img src={img} alt="img" className="some__content-ing"/>
+                    <img src={img} alt="img" className="some__content-img"/>
                 </div>
             </div>
         </section>

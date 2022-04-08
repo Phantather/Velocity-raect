@@ -26,12 +26,17 @@
 
 .service__row {
     display: flex;
-    column-gap: 50px;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .service__card {
     width: calc(50% - 25px);
     text-align: center;
+}
+
+.service__card-img {
+    width: 100%;
 }
 
 .service__card-title {
@@ -63,4 +68,11 @@
     text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+
+@media (max-width: 426px) {
+    .service__card {
+        width: 100%;
+    }
 }

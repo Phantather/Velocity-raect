@@ -4,15 +4,15 @@
     display: flex;
     column-gap: 30px;
 }
-.footer__content {
+.tooter__content {
     width: calc(33.33333% - 20px);
+
 }
 .footer__title {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 20px;
-    letter-spacing: 4px;
     text-transform: uppercase;
     color: #676770;
     margin-bottom: 20px;
@@ -39,4 +39,30 @@
     background: #383838;
     text-align: center;
     color: #9E9E9E;
+}
+
+
+@media (max-width: 641px) {
+    .tooter__content {
+        width: calc(50% - 15px);
+    }
+}
+
+@media (max-width: 577px) {
+    .footer__title {
+        font-size: 14px;
+    }
+    .footer__list-item {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 426px) {
+    .footer__title {
+        font-size: 12px;
+    }
+    .footer__list-item {
+        font-size: 10px;
+        line-height: 13px;
+    }
 }

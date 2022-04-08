@@ -43,3 +43,28 @@
     margin-bottom: 52px;
     cursor: pointer;
 }
+
+.some__content-img {
+    width: 100%;
+}
+
+
+@media (max-width: 641px) {
+    .some__tabs-item {
+        padding: 5px 25px;
+    }
+}
+
+@media (max-width: 577px) {
+    .some__tabs-item {
+        padding: 5px 17px;
+    }
+}
+
+@media (max-width: 426px) {
+    .some__tabs-item {
+        padding: 5px 7px;
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+}
